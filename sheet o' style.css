@@ -1,0 +1,274 @@
+/*styling*/
+
+body {
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-color: transparent;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.card {
+    width: 100%;
+    contain: content;
+}
+
+img {
+    width: auto;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+} 
+
+/*navbar parameters*/
+
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+/*Background Image Styling*/
+
+.backStonesTowel {
+    background-image: url(images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    height: 1000px;
+    width: 100%;
+    position: absolute; 
+} 
+
+/*Container % Sub-container*/
+
+.container {
+    position: relative;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+.sub-container > div {
+    position: relative;
+    margin-left: 2.5%;
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+}
+
+/*Headings & Paragraphs*/
+
+businessName {
+    font-size: 42px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 30px;
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+welcome {
+    font-size: 32px;
+}
+
+paragraph {
+    font-size: 16px;
+    padding-right: 55%;
+}
+
+pricing {
+    font-size: 32px;
+    line-height: 100px;
+    text-align: right;
+    float: right;
+    width: 100%;
+    padding-right: 30px;
+}
+
+pricepg {
+    font-size: 16px;
+    float: right;
+    padding-left: 55%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+FBM {
+    font-size: 32px;
+    line-height: 100px;
+    text-align: left;
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+}
+
+FBMpg {
+    font-size: 16px;
+    float: left;
+    padding-right: 55%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+HBM {
+    font-size: 32px;
+    line-height: 100px;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+    width: 100%;
+}
+
+HBMpg {
+    font-size: 16px;
+    float: right;
+    padding-left: 55%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+TPT {
+    font-size: 32px;
+    line-height: 100px;
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+}
+
+TPTpg {
+    font-size: 16px;
+    float: left;
+    padding-right: 55%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+PM {
+    font-size: 32px;
+    line-height: 100px;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+    width: 100%;
+}
+
+PMpg {
+    font-size: 16px;
+    float: right;
+    padding-left: 55%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+/*Lower Styling*/
+
+.breakbar {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: #282828;
+}
+
+.line {
+    height: 5px;
+    background-color: white;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+}
+
+/*Column styling*/
+
+.column {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+    height: 550px;
+    background-color: #282828;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Footer styling*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+}
+
+.footerInfo {
+    color: black;
+    background-image: linear-gradient(to right, #FFCCCC, #CCCCFF);
+    width: 100%;
+    margin: auto;
+}
+
+.footerInfo tr th {
+    font-size: 24px;
+    padding: 20px 50px;
+}
+
+.footerInfo tr td {
+    width: 50%;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.footerInfo tfoot tr td {
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.socialIcons {
+    display: inline-flex !important;
+    margin-right: 8px;
+    height: 50px;
+    width: 50px;
+}
